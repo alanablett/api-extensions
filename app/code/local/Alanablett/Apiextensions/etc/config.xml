@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Alanablett_Apiextensions>
+            <version>0.0.1</version>
+            <depends>
+                <Core_Api />
+            </depends>
+        </Alanablett_Apiextensions>
+    </modules>
+</config>
