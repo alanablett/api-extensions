@@ -3,9 +3,18 @@
     <modules>
         <Alanablett_Apiextensions>
             <version>0.0.1</version>
-            <depends>
-                <Core_Api />
-            </depends>
         </Alanablett_Apiextensions>
     </modules>
+    <global>
+        <helpers>
+            <alanablett_apiextensions>
+                <class>Alanablett_Apiextensions_Helper</class>
+            </alanablett_apiextensions>
+        </helpers>
+        <models>
+            <alanablett_apiextensions>
+                <class>Alanablett_Apiextensions_Model</class>
+            </alanablett_apiextensions>
+        </models>
+    </global>
 </config>

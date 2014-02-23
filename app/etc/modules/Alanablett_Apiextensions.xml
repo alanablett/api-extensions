@@ -4,6 +4,9 @@
         <Alanablett_Apiextensions>
             <active>true</active>
             <codePool>local</codePool>
+            <depends>
+                <Mage_Api />
+            </depends>
         </Alanablett_Apiextensions>
     </modules>
 </config>

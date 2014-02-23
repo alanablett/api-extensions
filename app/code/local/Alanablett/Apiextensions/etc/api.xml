@@ -1,0 +1,38 @@
+<config>
+    <api>
+        <resources>
+            <alanablett_apiextensions_taxrules translate="title" module="alanablett_apiextensions">
+                <title>Alanablett Tax Rule API Extensions</title>
+                <model>alanablett_apiextensions/taxrules_api</model>
+                <acl>alanablett_apiextensions/taxrules</acl>
+                <methods>
+                    <getTaxRuleDataByName translate="title" module="alanablett_apiextensions">
+                        <title>Returns the tax rules of the website</title>
+                        <acl>alanablett_apiextensions/taxrules/allaccess</acl>
+                    </getTaxRuleDataByName>
+                </methods>
+            </alanablett_apiextensions_taxrules>
+        </resources>
+        
+        <resources_alias>
+            <taxrules>alanablett_apiextensions_taxrules</taxrules>
+        </resources_alias>
+        
+        <acl>
+            <resources>
+                <alanablett_apiextensions translate="title" module="alanablett_apiextensions">
+                    <title>Alanablett API Extensions</title>
+                    <sort_order>100</sort_order>
+                    <taxrules translate="title" module="alanablett_apiextensions">
+                        <title>Alanablett Tax Rules</title>
+                        <sort_order>100</sort_order>
+                        <allaccess translate="title" module="alanablett_apiextensions">
+                            <title>alanablett Tax Rules (all access)</title>
+                            <sort_order>10</sort_order>
+                        </allaccess>
+                    </taxrules>
+                </alanablett_apiextensions>
+            </resources>
+        </acl>
+    </api>
+</config>
